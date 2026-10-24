@@ -28,6 +28,7 @@ Bu depo; sıfırdan yapay zeka ve veri bilimi kariyerine başlamak isteyenler ve
 3. **Veri Bilimi Çekirdeği:** NumPy ile vektörel hesaplamalar, Pandas ile veri işleme, filtreleme ve temizleme.
 4. **Veri Görselleştirme:** Matplotlib, Seaborn ve interaktif Plotly grafikleri, paralel koordinatlar ve nadir görselleştirme araçları.
 5. **İstatistiksel Analiz:** Betimsel istatistik, olasılık dağılımları, korelasyon, kovaryans ve aykırı değer (outlier) analizi.
+6. **Uygulamalı Veri Analizi (End-to-End):** Süpermarket fiyat trendleri ve tüketici sepet optimizasyonu ile Tidy Data (melt/pivot), Tukey IQR outlier dedektörü, zaman serisi resampling ve MultiIndex pivot tablo uygulamaları.
 
 ---
 
@@ -40,6 +41,7 @@ Bu depo; sıfırdan yapay zeka ve veri bilimi kariyerine başlamak isteyenler ve
 | 03 | **Advanced Data Visualization** | Dağılım grafikleri, ısı haritaları (heatmaps), interaktif Plotly 3D grafikleri, coğrafi haritalar ve nadir görselleştirme teknikleri. | Matplotlib, Seaborn, Plotly | [`/3-Data_Visualization`](./3-Data_Visualization) |
 | 04 | **Statistical Analysis & Probability** | Merkezi eğilim ölçüleri, varyans/standart sapma, normal dağılım, Pearson/Spearman korelasyonu ve hipotez testleri. | Statistics, SciPy, Matplotlib | [`/6-Statistics`](./6-Statistics) |
 | 05 | **Rent A Car OOP Project** | Araç ve bisiklet kiralama iş mantığını, envanter yönetimini ve faturalandırmayı yöneten nesne yönelimli Python projesi. | Python Classes, Inheritance, OOP | [`/Rent_a_car_project`](./Rent_a_car_project) |
+| 06 | **Supermarket Price Trends & Basket Optimization** | 12 aylık perakende verisinde Tidy Data dönüşümü, Tukey IQR aykırı değer temizliği, zaman serisi resampling ve MultiIndex pivot ile bütçe tasarruf analizi. | Pandas, NumPy, Matplotlib, Seaborn, Tidy Data | [`/Supermarket_Fiyat_Analizi_Projesi`](./Supermarket_Fiyat_Analizi_Projesi) |
 
 ---
 
@@ -75,6 +77,10 @@ jupyter notebook
 # OOP Rent-a-Car Projesini Çalıştırma
 cd Rent_a_car_project
 python main.py
+
+# Süpermarket Fiyat Analizi Projesini Çalıştırma
+cd ../Supermarket_Fiyat_Analizi_Projesi
+jupyter notebook Supermarket_Price_Analysis.ipynb
 ```
 
 ---
